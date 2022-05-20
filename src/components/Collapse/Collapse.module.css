@@ -1,0 +1,42 @@
+.root {
+  transition: max-height .3s ease-in-out;
+  overflow-y: hidden;
+}
+
+.opened .content {
+  margin-bottom: 4px;
+}
+
+.collapsed .content {
+  max-height: 0;
+}
+
+.opened .content {
+  max-height: 500px;
+  transition: max-height .5s ease-in-out;
+}
+
+.label {
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 14px;
+  cursor: pointer;
+  padding: 4px 0 4px 0;
+}
+
+.label::before {
+  content: '\02C4';
+  display: inline-block;
+  height: 23px;
+  margin-right: 4px;
+}
+
+.collapsed .label::before {
+  transform: rotateZ(180deg);
+}
+
+.opened .label::before {
+  transition: transform .2s linear;
+}

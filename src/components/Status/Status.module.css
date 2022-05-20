@@ -1,0 +1,23 @@
+.root {
+  padding: 4px;
+  border-radius: 4px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #404040;
+}
+
+.placed {
+  background-color: lightgray;
+}
+
+.preparing,
+.prepared,
+.onTheWay {
+  background-color: lightblue;
+}
+
+.delivered {
+  background-color: lightgreen;
+}

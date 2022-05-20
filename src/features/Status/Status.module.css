@@ -1,0 +1,27 @@
+.root {
+  display: flex;
+  margin-bottom: 25px;
+}
+
+a {
+  cursor: pointer;
+  color: #0066CC;
+  text-decoration: none;
+}
+
+.statusComponent {
+  margin: 0 8px 0 8px;
+}
+
+.okButton {
+  margin: 0 8px 0 8px;
+  background: none;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.okButton:hover,
+.okButton:focus {
+  background-color: #e0e0e0;
+}

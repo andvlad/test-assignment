@@ -1,0 +1,34 @@
+.title,
+.address,
+.packaging {
+  margin-bottom: 8px;
+}
+
+.title {
+  font-size: 18px;
+}
+
+.title::before {
+  content: '\2022';
+  margin-right: 4px;
+}
+
+.payment,
+.statusHistory {
+  border-bottom: lightgray 1px solid;
+}
+
+.statusHistory {
+  border-top: lightgray 1px solid;
+}
+
+.cutlery {
+  display: inline-block;
+  padding: 4px;
+  margin-left: 8px;
+  border-radius: 4px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 14px;
+  background-color: #e0e0e0;
+}
